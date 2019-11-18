@@ -1,8 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: "Roboto", sans-serif;
-
+  font-family: "Roboto, sans-serif";
 }
 
 *, *::before, *::after {
@@ -10,7 +9,7 @@ html {
 }
 
 body {
-margin: 0;
+  margin: 0;
 }
 
 .banner {
@@ -42,14 +41,15 @@ margin: 0;
 
 .banner-content p {
   font-size: 1.5rem;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto Condensed, sans-serif";
   padding-top: 0;
   margin: .75rem;
 }
 
 .text {
   width: 60%;
-  padding: .95rem;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .robot {
@@ -68,6 +68,11 @@ margin: 0;
   background-color: #333;
   border-color: #333;
   display: inline-block;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
 }
 
 .btn-big {
