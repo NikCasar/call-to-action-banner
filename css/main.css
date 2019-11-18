@@ -1,7 +1,75 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+margin: 0;
+}
+
+.banner {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 45em;
+  display: flex;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
+.banner-content h2 {
+  font-size: 3rem;
+  padding: .75rem;
+  margin: 0;
+}
+
+.banner-content p {
+  font-size: 1.5rem;
+  font-family: "Roboto Condensed", sans-serif;
+  padding-top: 0;
+  margin: .75rem;
+}
+
+.text {
+  width: 60%;
+  padding: .95rem;
+}
+
+.robot {
+  width: 30%;
+  padding-left: 1rem;
+}
+
+.btn {
+  font-size: 1.125rem;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  border-width: 3px;
+  border-style: solid;
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
+  display: inline-block;
+}
+
+.btn-big {
+  font-size: 1.5rem;
 }
